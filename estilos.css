@@ -1,0 +1,316 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ width: 100%;
+}
+.container
+{
+    margin-left: 400px;
+    padding-left: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #f2f2f2;
+    color: black;
+    width: 90%;
+    justify-content: center;
+}
+.encabezado
+{
+  font-family:'roboto',sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+  padding-bottom: 20px;
+  padding-top:40px ;
+}
+.encabezado h2 b
+{
+  font-family:'coiny',sans-serif;
+  font-weight: normal;
+  font-size: 88px;
+}
+.showcase
+{
+    padding-bottom: 50px;
+    width: 600px;
+    font-family: 'roboto', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.showcase h3
+{
+    width: 80%;
+    font-family:'roboto',cursive;
+    font-size: 20px;
+    font-weight: normal;
+    background-color:yellow;
+}
+.showcase p
+{
+   padding-top: 70px;
+}
+h1
+{
+    font-family: 'Coiny','cursive';
+    font-size: 42px;
+    font-weight:normal;
+}
+#uno
+{
+    height: 10px;
+    background-color:yellow ;
+    width: 90%;
+    margin-left: 400px;
+    border: none;
+}
+#dos
+{
+    width: 90%;
+    border:1px solid black;
+    margin:20px 20px;
+    text-align: center;
+}
+#tres
+{
+    width: 90%;
+    border:1px solid black;
+    margin:20px 20px;
+    text-align: center; 
+}
+
+.nav-main
+{
+    font-size: 17px;
+    text-align: center;
+    height: 60px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.acom
+{
+    float: left;
+    width: 100%;
+}
+
+ img
+ { 
+   width:700px;height:550px;display:flex;justify-content:space-around;padding-right:100px;float:right;
+   padding-bottom: 20px;
+ }
+ul
+{
+   list-style: none;
+}
+a{text-decoration: none;color:black;}
+.nav-main ul
+{
+    display: flex;
+    text-decoration: none;
+    padding:5px 20px;
+    
+}
+.nav-main ul li
+{
+    list-style: none;
+    padding: 0 10px;
+}
+.nav-main ul
+{
+    padding-top: 15px;
+    padding-right: 70px;
+}
+.nav-menu a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight:normal;
+}
+footer
+{
+    display:flex;
+    background-color: yellow;
+    padding-left: 80px;
+    width: 90%;
+    margin: auto;
+    margin-left: 400px;
+}
+footer h1
+{
+    font-size: 33px;
+}
+.cards
+{
+    width: 100%;
+    padding-bottom: 20px;
+    display:flex;
+    gap: 200px;
+}
+.cards article 
+{
+   padding: 20px 0;
+   font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    
+}
+.cards article h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight:'black';
+}
+.img2
+{
+    width: 700px;
+    height: 650px;
+    padding-top: 20px;
+    float: left;
+    margin-right: 30px;
+}
+.pie
+{
+    width: 100%;
+    padding-top: 20px;
+    margin-left: 710px;
+}
+
+.pie h3
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 41px;
+  font-weight:bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.pie ol
+{
+    
+}
+
+.pie li
+{
+font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight:normal;
+  line-height: 50px;
+  margin-left: 50px;
+}
+footer a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    padding:13px 50px;
+    
+}
+.columna
+{
+    line-height: 80px;
+    padding-bottom: 400px;
+    
+}
+.columna form
+{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+   float:right;
+   padding-right:100px;
+   line-height: 50px;
+}
+.columna button
+{
+ margin-right: 180px;
+ width: 200px;
+ height: 30px;
+ background: black;
+ color: white;
+ font-family: 'roboto' cursive;
+ font-size: 24px;
+ font-weight: bold;
+}
+.columna #cuatro
+{
+    width: 100px;
+    height: 30px;
+    background: black;
+ color: white;
+ font-family: 'roboto' cursive;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+.columna h3
+{
+   font-family:'roboto', cursive;
+   font-size: 51px;
+   font-weight: bold;
+   width: 50%;
+}
+samp
+{
+    background: black;
+    color: white; 
+}
+.columna b
+{
+    background: black;
+    color: white; 
+}
+.columna h4
+{
+    font-family:'roboto', cursive;
+    font-size: 33px;
+    font-weight: bold;
+    padding-bottom:80px;
+    width: 400px; 
+    text-align:justify;
+    height:10px;
+    background-color:yellow;
+    padding-left: 10px; 
+}
+.columna header
+{
+    padding-bottom: 100px;
+}
+.form
+{
+    display: flex;
+    justify-content: space-between;
+}
+sqr
+{
+    color: red;
+}
+.logos
+{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+  line-height: 20px;
+  gap: 30px; 
+  color:black;
+  width: 500px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+.logos h5
+{
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #808080;
+    padding-right: 50px;
+    line-height:30px;
+}
+ol
+{
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
